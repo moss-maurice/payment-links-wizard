@@ -48,7 +48,7 @@ abstract class Plugin extends Installer
             'cache_type' => $this->cacheType,
             'plugincode' => $this->plugincode,
             'locked' => $this->locked,
-            'properties' => json_encode($this->properties),
+            'properties' => json_encode($this->properties, JSON_UNESCAPED_UNICODE),
             'disabled' => $this->disabled,
             'moduleguid' => $this->moduleguid,
             'createdon' => $this->createdon,

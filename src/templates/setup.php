@@ -36,6 +36,7 @@
                                     <?= $_SERVER['REQUEST_SCHEME']; ?>://<?= $_SERVER['HTTP_HOST']; ?>/
                                 </span>
                                 <input type="text" class="form-control" name="setup[pageHandler]" placeholder="Префикс" autocomplete="off" />
+                                <small class="form-hint">Можно указать как строковое значение ссылки, так и ID страницы, чей alias необходимо взять для ссылки</small>
                             </div>
                         </div>
                     </div>

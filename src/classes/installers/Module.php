@@ -59,7 +59,7 @@ abstract class Module extends Installer
             'editedon' => $this->editedon,
             'guid' => $this->guid,
             'enable_sharedparams' => $this->enableSharedparams,
-            'properties' => json_encode($this->properties),
+            'properties' => json_encode($this->properties, JSON_UNESCAPED_UNICODE),
             'modulecode' => $this->modulecode,
         ]));
 
