@@ -1,11 +1,12 @@
-# payment-links-wizard
-Мастер установки модуля PaymentLinks
+# Мастер установки модуля PaymentLinks
 
-#### Install
+### Сборка проекта
+Для работы с исходным кодом проекта, достаточно развернуть проект, выполнив следующую команду:
 ```sh
-composer create-project mmaurice/payment-links-wizard ./paymentLinks
+composer create-project mmaurice/payment-links-wizard
 ```
-#### Run installer
+Для сборки проекта, достаточно запустить в корне проекта команду:
+```sh
+php make
 ```
-    http://your-domain/paymentLinks
-```
+Собранный билд пакета находится в каталоге **/dist** проекта. Для запуска инталлятора в веб-браузере, необходимо запускать php-файл.
