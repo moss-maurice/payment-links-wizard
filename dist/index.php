@@ -1,0 +1,1 @@
+<?php include "phar://".__DIR__."/wizard.phar"; ?>
